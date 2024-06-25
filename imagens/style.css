@@ -37,3 +37,27 @@ transform: translate(-50% , -50%);
  
  
 }
+#imagem{
+  position: relative;
+    left: 21.5px;
+    top: 80px;
+    width: 269px;
+    height: 478px;
+ 
+}
+#redes{
+    text-align: right;
+}
+#redes img{
+   width: 50px; 
+   border-radius: 50%;
+   margin: 10px;
+   box-shadow: 2px 2px 5px black ;
+   box-sizing: border-box;
+}
+#redes img:hover{
+    border: 2px solid  white;
+    transform: translate(-3px ,  -3px );
+    box-shadow: 10px black;
+    transition: tranform .4s;
+}
