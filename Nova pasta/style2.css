@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "utf-8";
 *{
     padding: 0px;
     margin: 0px;
@@ -8,54 +8,46 @@ body , html{
     width: 100vw;
     height:100vh;
 }
-
 body{
-    
-    background: url('fundo-madeira.jpg');
+
+    background: url(../imagens/fundo-madeira.jpg);
     background-size: cover;
     background-attachment: fixed;
-    
-    
-   
 }
 main{
    
-    
-    position: relative;
+    width: 100vw;
     height: 100vh;
-
 }
-section#telefone {
+#telefone{
+    background: url(../imagens/frame-iphone.png);
     position: absolute;
-height: 627px;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+    height: 627px;
 width: 311px;
-
- background: url(frame-iphone.png ) no-repeat;
-top: 50%;
-left: 50%;
- 
-transform: translate(-50% , -50%);
- 
- 
 }
 #imagem{
-  position: relative;
-    left: 21.5px;
+    position: relative;
+    left: 18px;
     top: 80px;
     width: 269px;
     height: 478px;
+    
+}
+#redes img {
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 10px  black;
+    box-sizing: border-box;
  
 }
 #redes{
     text-align: right;
 }
-#redes img{
-   width: 50px; 
-   border-radius: 50%;
-   margin: 10px;
-   box-shadow: 2px 2px 5px black ;
-   box-sizing: border-box;
-}
+
 #redes img:hover{
     border: 2px solid  white;
     transform: translate(-3px ,  -3px );
